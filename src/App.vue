@@ -1,10 +1,15 @@
 <template>
-  <h1>UA Weather Map</h1>
+  <MapView/>
 </template>
 
 <script>
+import MapView from './components/MapView.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    MapView
+  }
 }
 </script>
 
